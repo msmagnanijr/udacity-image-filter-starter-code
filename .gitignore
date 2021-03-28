@@ -130,6 +130,7 @@ dist/
 # Temporary folders
 tmp/
 temp/
+www
 
 ### vscode ###
 .vscode/*
