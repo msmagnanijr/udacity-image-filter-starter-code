@@ -35,7 +35,7 @@ Image after filter
 
 ### AWS Elastic Beanstalk Application
 
-![elasticbeanstalk](https://raw.githubusercontent.com/msmagnanijr/udacity-image-filter-starter-code/master/deployment_screenshots/elasticbeanstalk.png) 
+![elasticbeanstalk](https://raw.githubusercontent.com/msmagnanijr/udacity-image-filter-starter-code/master/deployment_screenshots/eb-dasboard.png) 
 
  Elastic Beanstalk App URL: 
  
