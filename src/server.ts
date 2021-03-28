@@ -10,7 +10,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   
   app.use(bodyParser.json());
 
-  app.get( "/filteredimage", async ( req, res ) => {
+  app.get( "/filteredimage", async(req:express.Request, res:express.Response) => {
     let {image_url} = req.query;
     if (!image_url){
       res.status(400).send('Error: The submitted url is empty');
@@ -20,13 +20,13 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
           deleteLocalFiles([image_filtered_path]);       
         });   
       }).catch(function(err){
-        res.status(400).send('Error: For some reason the image cannot be filtered. Please provide the following ID to our support:' + Math.random().toString(36).substr(2, 9));
+        res.status(400).send('Error:' + err + 'For some reason the image cannot be filtered. Please provide the following ID to our support:' + Math.random().toString(36).substr(2, 9));
       });  
 
     }
   });
   
-  app.get( "/", async ( req, res ) => {
+  app.get( "/", async(req:express.Request, res:express.Response) => {
     res.send("try GET /filteredimage?image_url={{}}")
   } );
   
