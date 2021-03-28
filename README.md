@@ -30,7 +30,7 @@ Image before filter
 
 Image after filter
 
-![cat-filter](https://raw.githubusercontent.com/msmagnanijr/udacity-image-filter-starter-code/master/deployment_screenshots/filteredimage.jpg) 
+![cat-filter](https://raw.githubusercontent.com/msmagnanijr/udacity-image-filter-starter-code/master/deployment_screenshots/filteredimage.jpeg) 
 
 
 ### AWS Elastic Beanstalk Application
