@@ -35,4 +35,10 @@ Image after filter
 
 ### AWS Elastic Beanstalk Application
 
- Elastic Beanstalk App URL: http://image-filter-starter.us-east-1.elasticbeanstalk.com
+![elasticbeanstalk](https://raw.githubusercontent.com/msmagnanijr/udacity-image-filter-starter-code/master/deployment_screenshots/elasticbeanstalk.png) 
+
+ Elastic Beanstalk App URL: 
+ 
+ http://image-filter-starter.us-east-1.elasticbeanstalk.com
+ 
+ http://mmagnani-udacity-image-filter-starter-c.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://super.abril.com.br/wp-content/uploads/2019/04/gato_site.png
